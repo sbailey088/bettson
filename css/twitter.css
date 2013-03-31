@@ -1,0 +1,78 @@
+/* 
+    Document   : twitter.css
+    Created on : 26-Mar-2013, 21:10:13
+    Author     : Stefan Bailey (bailey.stefan@gmail.com)
+    Description:
+        Custom style sheet for the twitter widget
+*/
+
+a{
+    color:#37A7C8;
+    text-decoration: none;
+}
+a:visited{
+    color:#37A7C8;
+    text-decoration: none;
+}
+a:hover{
+    color:#37A7C8;
+    text-decoration: none;
+}
+
+#twitter-widget{
+    background-color: #fff;
+    font-family: candara;
+    font-weight: bold;
+    font-size:10px;
+    margin-top:10px;
+
+}
+
+.header img{
+    width:200px;
+    background-color: #3D79D0;
+
+}
+.footer img{
+    width:200px;
+    background-color: #3D79D0;
+}
+
+.footer{
+    height: 25px;
+}
+div.content {
+    padding:16px;
+    padding-bottom:0px;
+    color:#000;
+}
+div.content div.tweet
+{
+    width:165px !important;
+    display:block;
+    padding-bottom:5px;
+    min-height: 45px;
+}
+
+div.content div.face
+{
+    float:left;
+    height:80px;
+    margin-right: 8px;
+}
+
+div.content div.name{
+    width: 125px
+}
+
+div.content div.links{
+    display:block;
+    font-size:9px !important;
+    border-bottom: 1px solid #F3F3F3;
+    padding-bottom:10px;
+}
+
+div.entries{
+    overflow:scroll;
+    max-height:430px;
+}
